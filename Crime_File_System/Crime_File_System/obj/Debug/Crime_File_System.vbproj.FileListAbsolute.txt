@@ -1,0 +1,39 @@
+E:\Project\Crime_File_System\Crime_File_System\bin\Debug\Crime_File_System.exe.config
+E:\Project\Crime_File_System\Crime_File_System\bin\Debug\Crime_File_System.exe
+E:\Project\Crime_File_System\Crime_File_System\bin\Debug\Crime_File_System.pdb
+E:\Project\Crime_File_System\Crime_File_System\bin\Debug\Crime_File_System.xml
+E:\Project\Crime_File_System\Crime_File_System\obj\Debug\Crime_File_System.Login.resources
+E:\Project\Crime_File_System\Crime_File_System\obj\Debug\Crime_File_System.Resources.resources
+E:\Project\Crime_File_System\Crime_File_System\obj\Debug\Crime_File_System.vbproj.GenerateResource.Cache
+E:\Project\Crime_File_System\Crime_File_System\obj\Debug\Crime_File_System.exe
+E:\Project\Crime_File_System\Crime_File_System\obj\Debug\Crime_File_System.xml
+E:\Project\Crime_File_System\Crime_File_System\obj\Debug\Crime_File_System.pdb
+E:\Project\Crime_File_System\Crime_File_System\bin\Debug\Login_Database.accdb
+E:\Project\Crime_File_System\Crime_File_System\obj\Debug\Crime_File_System.Add_User.resources
+E:\Project\Crime_File_System\Crime_File_System\obj\Debug\Crime_File_System.User_List.resources
+E:\Project\Crime_File_System\Crime_File_System\obj\Debug\Crime_File_System.SplashScreen.resources
+E:\Project\Crime_File_System\Crime_File_System\bin\Debug\Fir_Database.accdb
+E:\Project\Crime_File_System\Crime_File_System\obj\Debug\Crime_File_System.Register_Fir.resources
+E:\Project\Crime_File_System\Crime_File_System\obj\Debug\Crime_File_System.MainScreen.resources
+E:\Project\Crime_File_System\Crime_File_System\bin\Debug\Criminal_Database.accdb
+E:\Project\Crime_File_System\Crime_File_System\obj\Debug\Crime_File_System.add_records.resources
+E:\Project\Crime_File_System\Crime_File_System\obj\Debug\Crime_File_System.criminals.resources
+E:\Project\Crime_File_System\Crime_File_System\obj\Debug\Crime_File_System.FingerPrintMatching.resources
+E:\Project\Crime_File_System\Crime_File_System\bin\Debug\Crime_File_System.exe.manifest
+E:\Project\Crime_File_System\Crime_File_System\bin\Debug\Crime_File_System.application
+E:\Project\Crime_File_System\Crime_File_System\obj\Debug\Crime_File_System.exe.manifest
+E:\Project\Crime_File_System\Crime_File_System\obj\Debug\Crime_File_System.application
+E:\Project\Crime_File_System\Crime_File_System\obj\Debug\Crime_File_System.DeleteFir.resources
+E:\Project\Crime_File_System\Crime_File_System\obj\Debug\Crime_File_System.Admin_password.resources
+E:\Project\Crime_File_System\Crime_File_System\obj\Debug\Crime_File_System.start.resources
+E:\Project\Crime_File_System\Crime_File_System\obj\Debug\Crime_File_System.vbprojResolveAssemblyReference.cache
+E:\Project\Crime_File_System\Crime_File_System\obj\Debug\Crime_File_System.DeleteRecord.resources
+E:\Project\Crime_File_System\Crime_File_System\obj\Debug\Crime_File_System.firlist.resources
+E:\Project\Crime_File_System\Crime_File_System\obj\Debug\Crime_File_System.Addpass.resources
+E:\Project\Crime_File_System\Crime_File_System\obj\Debug\Crime_File_System.about.resources
+E:\Project E\Crime_File_System\Crime_File_System\bin\Debug\Crime_File_System.exe.config
+E:\Project E\Crime_File_System\Crime_File_System\obj\Debug\Crime_File_System.exe
+E:\Project E\Crime_File_System\Crime_File_System\obj\Debug\Crime_File_System.xml
+E:\Project E\Crime_File_System\Crime_File_System\obj\Debug\Crime_File_System.pdb
+E:\Project\Crime_File_System\Crime_File_System\obj\Debug\Crime_File_System.Cryptography.resources
+E:\Project\Crime_File_System\Crime_File_System\obj\Debug\Crime_File_System.Form2.resources

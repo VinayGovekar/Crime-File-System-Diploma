@@ -1,0 +1,523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0C92767C-825E-47CE-9CAA-A2C457BEDA58}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Crime_File_System.My.MyApplication</StartupObject>
+    <RootNamespace>Crime_File_System</RootNamespace>
+    <AssemblyName>Crime_File_System</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>E:\Games\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Crime_File_System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Crime_File_System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>94EC7628442C48F8CAADEBA183B79188B40797D9</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Crime_File_System_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Aha-Soft-Free-Large-Boss-Police-Officer.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="about.Designer.vb">
+      <DependentUpon>about.vb</DependentUpon>
+    </Compile>
+    <Compile Include="about.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Addpass.Designer.vb">
+      <DependentUpon>Addpass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Addpass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_records.Designer.vb">
+      <DependentUpon>add_records.vb</DependentUpon>
+    </Compile>
+    <Compile Include="add_records.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_User.Designer.vb">
+      <DependentUpon>Add_User.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Add_User.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_password.Designer.vb">
+      <DependentUpon>Admin_password.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_password.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="criminals.Designer.vb">
+      <DependentUpon>criminals.vb</DependentUpon>
+    </Compile>
+    <Compile Include="criminals.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Criminal_DatabaseDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Criminal_DatabaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Criminal_DatabaseDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Criminal_DatabaseDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Criminal_DatabaseDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Criminal_DatabaseDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Criminal_DatabaseDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Criminal_DatabaseDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Criminal_DatabaseDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Criminal_DatabaseDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Criminal_DatabaseDataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Criminal_DatabaseDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cryptography.Designer.vb">
+      <DependentUpon>Cryptography.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cryptography.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteFir.Designer.vb">
+      <DependentUpon>DeleteFir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteFir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteRecord.Designer.vb">
+      <DependentUpon>DeleteRecord.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteRecord.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FingerPrintMatching.Designer.vb">
+      <DependentUpon>FingerPrintMatching.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FingerPrintMatching.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="firlist.Designer.vb">
+      <DependentUpon>firlist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="firlist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fir_DatabaseDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Fir_DatabaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Fir_DatabaseDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Fir_DatabaseDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login_DatabaseDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Login_DatabaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Login_DatabaseDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Login_DatabaseDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Login_DatabaseDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Login_DatabaseDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MainScreen.Designer.vb">
+      <DependentUpon>MainScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Register_Fir.Designer.vb">
+      <DependentUpon>Register_Fir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Register_Fir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen.Designer.vb">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="start.Designer.vb">
+      <DependentUpon>start.vb</DependentUpon>
+    </Compile>
+    <Compile Include="start.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User_List.Designer.vb">
+      <DependentUpon>User_List.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User_List.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="about.resx">
+      <DependentUpon>about.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Addpass.resx">
+      <DependentUpon>Addpass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="add_records.resx">
+      <DependentUpon>add_records.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_User.resx">
+      <DependentUpon>Add_User.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_password.resx">
+      <DependentUpon>Admin_password.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="criminals.resx">
+      <DependentUpon>criminals.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cryptography.resx">
+      <DependentUpon>Cryptography.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteFir.resx">
+      <DependentUpon>DeleteFir.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteRecord.resx">
+      <DependentUpon>DeleteRecord.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FingerPrintMatching.resx">
+      <DependentUpon>FingerPrintMatching.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="firlist.resx">
+      <DependentUpon>firlist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainScreen.resx">
+      <DependentUpon>MainScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Register_Fir.resx">
+      <DependentUpon>Register_Fir.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen.resx">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="start.resx">
+      <DependentUpon>start.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_List.resx">
+      <DependentUpon>User_List.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Crime_File_System_TemporaryKey.pfx" />
+    <None Include="Criminal_DatabaseDataSet.xsc">
+      <DependentUpon>Criminal_DatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Criminal_DatabaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Criminal_DatabaseDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Criminal_DatabaseDataSet.xss">
+      <DependentUpon>Criminal_DatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Criminal_DatabaseDataSet1.xsc">
+      <DependentUpon>Criminal_DatabaseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Criminal_DatabaseDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Criminal_DatabaseDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Criminal_DatabaseDataSet1.xss">
+      <DependentUpon>Criminal_DatabaseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Criminal_DatabaseDataSet2.xsc">
+      <DependentUpon>Criminal_DatabaseDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Criminal_DatabaseDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Criminal_DatabaseDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Criminal_DatabaseDataSet2.xss">
+      <DependentUpon>Criminal_DatabaseDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Criminal_DatabaseDataSet3.xsc">
+      <DependentUpon>Criminal_DatabaseDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Criminal_DatabaseDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Criminal_DatabaseDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Criminal_DatabaseDataSet3.xss">
+      <DependentUpon>Criminal_DatabaseDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Criminal_DatabaseDataSet4.xsc">
+      <DependentUpon>Criminal_DatabaseDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Criminal_DatabaseDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Criminal_DatabaseDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Criminal_DatabaseDataSet4.xss">
+      <DependentUpon>Criminal_DatabaseDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Criminal_DatabaseDataSet5.xsc">
+      <DependentUpon>Criminal_DatabaseDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Criminal_DatabaseDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Criminal_DatabaseDataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Criminal_DatabaseDataSet5.xss">
+      <DependentUpon>Criminal_DatabaseDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Fir_DatabaseDataSet.xsc">
+      <DependentUpon>Fir_DatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Fir_DatabaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Fir_DatabaseDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Fir_DatabaseDataSet.xss">
+      <DependentUpon>Fir_DatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Fir_DatabaseDataSet1.xsc">
+      <DependentUpon>Fir_DatabaseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Fir_DatabaseDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Fir_DatabaseDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Fir_DatabaseDataSet1.xss">
+      <DependentUpon>Fir_DatabaseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Login_DatabaseDataSet.xsc">
+      <DependentUpon>Login_DatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Login_DatabaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Login_DatabaseDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Login_DatabaseDataSet.xss">
+      <DependentUpon>Login_DatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Login_DatabaseDataSet1.xsc">
+      <DependentUpon>Login_DatabaseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Login_DatabaseDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Login_DatabaseDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Login_DatabaseDataSet1.xss">
+      <DependentUpon>Login_DatabaseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Login_DatabaseDataSet2.xsc">
+      <DependentUpon>Login_DatabaseDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Login_DatabaseDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Login_DatabaseDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Login_DatabaseDataSet2.xss">
+      <DependentUpon>Login_DatabaseDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Aha-Soft-Free-Large-Boss-Police-Officer.ico" />
+    <Content Include="Criminal_Database.accdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fir_Database.accdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Login_Database.accdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

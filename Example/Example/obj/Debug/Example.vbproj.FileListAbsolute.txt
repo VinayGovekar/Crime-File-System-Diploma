@@ -1,0 +1,12 @@
+E:\Project\Example\Example\bin\Debug\Example.exe.config
+E:\Project\Example\Example\bin\Debug\Criminal_Database.accdb
+E:\Project\Example\Example\bin\Debug\Example.exe
+E:\Project\Example\Example\bin\Debug\Example.pdb
+E:\Project\Example\Example\bin\Debug\Example.xml
+E:\Project\Example\Example\obj\Debug\Example.Form1.resources
+E:\Project\Example\Example\obj\Debug\Example.Resources.resources
+E:\Project\Example\Example\obj\Debug\Example.vbproj.GenerateResource.Cache
+E:\Project\Example\Example\obj\Debug\Example.exe
+E:\Project\Example\Example\obj\Debug\Example.xml
+E:\Project\Example\Example\obj\Debug\Example.pdb
+E:\Project\Example\Example\obj\Debug\Example.Form2.resources
